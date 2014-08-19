@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/home/k/AndroidStudioProjects/Bacteria/app/build/intermediates/pre-dexed/release/classes-10e0980708b73d0bc42cf6ec0687f57ec4a80438.jar"
+        jar="/home/k/AndroidStudioProjects/Bacteria/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+    <item
+        dex="/home/k/AndroidStudioProjects/Bacteria/app/build/intermediates/pre-dexed/debug/classes-8180761ae1b02f0a7ab2d7dcbba69104c6257d12.jar"
+        jar="/home/k/AndroidStudioProjects/Bacteria/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.77/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b6a82434c1eca686607867cd906bcc80ed987837"/>
+    <item
+        dex="/home/k/AndroidStudioProjects/Bacteria/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-ae84b0115ef5322ad67710a655b27cc8589f7987.jar"
+        jar="/home/k/android-studio/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+
+</pre-dex-items>

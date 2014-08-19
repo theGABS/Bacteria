@@ -1,0 +1,36 @@
+apply plugin: 'android'
+
+android {
+    signingConfigs {
+        config {
+            storeFile file('/home/k/AndroidStudioProjects/Bacteria/key.jks')
+            keyAlias 'kno3qwerty'
+            keyPassword 'kno3qwerty'
+            storePassword 'kno3qwerty'
+        }
+    }
+    compileSdkVersion 19
+    buildToolsVersion '19.1.0'
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 19
+        versionName '3.9.2'
+        versionCode 5
+    }
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:19.+'
+    compile 'com.android.support:support-v4:19.+'
+    compile 'com.google.android.gms:play-services:4.3.23'
+    compile 'com.google.android.gms:play-services:+'
+}
